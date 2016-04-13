@@ -9,9 +9,9 @@ from nltk.corpus import PlaintextCorpusReader
 corpus_root = "."
 search_text = nltk.Text(PlaintextCorpusReader(corpus_root, input_text).words())
 
-search_text.concordance("angel",150,25)
+search_text.concordance("angel",200,25)
 
-search_text.concordance("angels",150,25)
+search_text.concordance("angels",200,25)
 
 search_text.dispersion_plot(["angel","angels"])
 

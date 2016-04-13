@@ -11,5 +11,3 @@ Matthew = nltk.Text(PlaintextCorpusReader(corpus_root, "Matthew Resurrection.txt
 Mark = nltk.Text(PlaintextCorpusReader(corpus_root, "Mark Resurrection.txt").words())
 Luke = nltk.Text(PlaintextCorpusReader(corpus_root, "Luke Resurrection.txt").words())
 John = nltk.Text(PlaintextCorpusReader(corpus_root, "John Resurrection.txt").words())
-
-search_text.concordance(raw_input(angel),80,27)
