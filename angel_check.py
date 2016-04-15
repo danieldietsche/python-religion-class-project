@@ -2,6 +2,7 @@ import nltk
 import os
 import sys
 
+#command line argument is the text file name.
 input_text = sys.argv[1]
 
 from nltk.corpus import PlaintextCorpusReader
@@ -26,4 +27,3 @@ print "Number of times used:"
 for (key, value) in (fd.items()):
 	if key == "angel" or key == "angels":
 		print key,value
-
